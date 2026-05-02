@@ -1,0 +1,26 @@
+{
+  "name": "notification_app_be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "keywords": [
+    "notifications",
+    "campus",
+    "express",
+    "priority",
+    "heap"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Campus Notifications Microservice with priority inbox",
+  "dependencies": {
+    "axios": "^1.15.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "logging_middleware": "file:../logging_middleware"
+  }
+}
